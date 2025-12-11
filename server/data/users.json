@@ -1,0 +1,18 @@
+[
+  {
+    "id": "6272e296-60f5-423d-b2cc-eb89c766cd5c",
+    "username": "Admin",
+    "email": "admin@cakemail.com",
+    "password": "qwerty1337",
+    "createdAt": "2025-12-08T03:13:13.114Z",
+    "isAdmin": true
+  },
+  {
+    "id": "31aead29-3dfa-4bd1-96e6-d887196fa95b",
+    "username": "User",
+    "email": "example@hotmail.com",
+    "password": "qwerty1234",
+    "createdAt": "2025-12-08T06:32:54.253Z",
+    "isAdmin": false
+  }
+]

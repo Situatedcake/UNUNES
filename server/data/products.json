@@ -1,0 +1,218 @@
+[
+  {
+    "id": "product-1",
+    "name": "Ноутбук Pro 15",
+    "price": 120000,
+    "description": "Мощный ноутбук для работы и игр",
+    "image": "https://store.surface-pro.ru/images/categories/Surface-Laptop-6-Sapphire-1.png",
+    "category": "Электроника",
+    "createdAt": "2024-12-01T10:00:00.000Z"
+  },
+  {
+    "id": "product-2",
+    "name": "Смартфон Iphone 15",
+    "price": 50000,
+    "description": "Современный смартфон с хорошей камерой",
+    "image": "https://static.insales-cdn.com/images/products/1/7706/908172826/Apple-iPhone-16-Black.jpg",
+    "category": "Электроника",
+    "createdAt": "2024-12-01T10:05:00.000Z"
+  },
+  {
+    "id": "product-3",
+    "name": "Наушники AirPods Premium",
+    "price": 15000,
+    "description": "Беспроводные наушники высокого качества",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXIdvrBhFFBg7q8SQHkTncfO5Jy-b1-2TOWQ&s",
+    "category": "Аксессуары",
+    "createdAt": "2024-12-01T10:10:00.000Z"
+  },
+  {
+    "id": "product-4",
+    "name": "Клавиатура Механическая",
+    "price": 8000,
+    "description": "Механическая клавиатура для геймеров",
+    "image": "https://avatars.mds.yandex.net/get-mpic/7721969/2a000001923339fa6410150c528a60fc4a50/orig",
+    "category": "Переферия",
+    "createdAt": "2024-12-01T10:15:00.000Z"
+  },
+  {
+    "id": "product-5",
+    "name": "Монитор 4K oled",
+    "price": 35000,
+    "description": "Профессиональный 4K монитор для работы",
+    "image": "https://cdn.citilink.ru/G31NmZMg9gVvATyanwOpgXKWDadLTD1ZPeNkKN6SwUM/resizing_type:fit/gravity:sm/width:400/height:400/plain/product-images/ddb3f8e0-2095-489d-b1af-3cf177067243.jpg",
+    "category": "Электроника",
+    "createdAt": "2024-12-01T10:20:00.000Z"
+  },
+  {
+    "id": "product-7",
+    "name": "Смартфон X10 Ultra",
+    "price": 89990,
+    "description": "Флагманский смартфон с камерой 200 МП",
+    "image": "https://example.com/images/phone-x10-ultra.png",
+    "category": "Электроника",
+    "createdAt": "2024-11-15T14:30:00.000Z"
+  },
+  {
+    "id": "product-8",
+    "name": "Наушники Quantum Sound",
+    "price": 24990,
+    "description": "Беспроводные наушники с шумоподавлением",
+    "image": "https://example.com/images/quantum-sound-headphones.png",
+    "category": "Электроника",
+    "createdAt": "2024-11-20T09:15:00.000Z"
+  },
+  {
+    "id": "product-9",
+    "name": "Умные часы FitPro",
+    "price": 19990,
+    "description": "Фитнес-часы с отслеживанием здоровья",
+    "image": "https://example.com/images/fitpro-watch.png",
+    "category": "Электроника",
+    "createdAt": "2024-10-05T16:45:00.000Z"
+  },
+  {
+    "id": "product-10",
+    "name": "Кожаный диван Milano",
+    "price": 85000,
+    "description": "Роскошный диван из натуральной кожи",
+    "image": "https://example.com/images/milano-sofa.png",
+    "category": "Мебель",
+    "createdAt": "2024-09-12T11:20:00.000Z"
+  },
+  {
+    "id": "product-11",
+    "name": "Кофемашина Barista Elite",
+    "price": 54990,
+    "description": "Профессиональная кофемашина для дома",
+    "image": "https://example.com/images/barista-elite.png",
+    "category": "Бытовая техника",
+    "createdAt": "2024-11-25T08:00:00.000Z"
+  },
+  {
+    "id": "product-12",
+    "name": "Блендер PowerMix 2000",
+    "price": 12990,
+    "description": "Мощный блендер с 10 скоростями",
+    "image": "https://example.com/images/powermix-blender.png",
+    "category": "Бытовая техника",
+    "createdAt": "2024-10-30T13:10:00.000Z"
+  },
+  {
+    "id": "product-13",
+    "name": "Футболка Classic Cotton",
+    "price": 2990,
+    "description": "Хлопковая футболка премиум-качества",
+    "image": "https://example.com/images/classic-cotton-tshirt.png",
+    "category": "Одежда",
+    "createdAt": "2024-12-05T12:00:00.000Z"
+  },
+  {
+    "id": "product-14",
+    "name": "Джинсы Slim Fit",
+    "price": 5990,
+    "description": "Современные джинсы облегающего кроя",
+    "image": "https://example.com/images/slim-fit-jeans.png",
+    "category": "Одежда",
+    "createdAt": "2024-11-10T10:30:00.000Z"
+  },
+  {
+    "id": "product-15",
+    "name": "Кроссовки RunFlex",
+    "price": 8990,
+    "description": "Легкие кроссовки для бега и спорта",
+    "image": "https://example.com/images/runflex-sneakers.png",
+    "category": "Обувь",
+    "createdAt": "2024-10-15T15:45:00.000Z"
+  },
+  {
+    "id": "product-16",
+    "name": "Планшет ArtPad Pro",
+    "price": 75990,
+    "description": "Планшет для творчества и дизайна",
+    "image": "https://example.com/images/artpad-pro.png",
+    "category": "Электроника",
+    "createdAt": "2024-09-28T14:20:00.000Z"
+  },
+  {
+    "id": "product-17",
+    "name": "Книжная полка Modern Oak",
+    "price": 18990,
+    "description": "Стильная полка из натурального дуба",
+    "image": "https://example.com/images/modern-oak-shelf.png",
+    "category": "Мебель",
+    "createdAt": "2024-11-05T09:00:00.000Z"
+  },
+  {
+    "id": "product-18",
+    "name": "Холодильник FrostFree",
+    "price": 112000,
+    "description": "Двухкамерный холодильник с No Frost",
+    "image": "https://example.com/images/frostfree-fridge.png",
+    "category": "Бытовая техника",
+    "createdAt": "2024-10-22T17:30:00.000Z"
+  },
+  {
+    "id": "product-19",
+    "name": "Куртка Winter Shield",
+    "price": 15990,
+    "description": "Теплая зимняя куртка с мембраной",
+    "image": "https://example.com/images/winter-shield-jacket.png",
+    "category": "Одежда",
+    "createdAt": "2024-09-15T11:45:00.000Z"
+  },
+  {
+    "id": "product-20",
+    "name": "Фотоаппарат Alpha Z9",
+    "price": 245000,
+    "description": "Профессиональная зеркальная камера",
+    "image": "https://example.com/images/alpha-z9-camera.png",
+    "category": "Электроника",
+    "createdAt": "2024-12-03T13:25:00.000Z"
+  },
+  {
+    "id": "product-21",
+    "name": "Обеденный стол Nordic",
+    "price": 32900,
+    "description": "Минималистичный стол для столовой",
+    "image": "https://example.com/images/nordic-dining-table.png",
+    "category": "Мебель",
+    "createdAt": "2024-11-18T10:10:00.000Z"
+  },
+  {
+    "id": "product-22",
+    "name": "Посудомоечная машина AquaClean",
+    "price": 68900,
+    "description": "Встраиваемая посудомоечная машина",
+    "image": "https://example.com/images/aquaclean-dishwasher.png",
+    "category": "Бытовая техника",
+    "createdAt": "2024-10-08T16:00:00.000Z"
+  },
+  {
+    "id": "product-23",
+    "name": "Свитшот Premium Hoodie",
+    "price": 7990,
+    "description": "Удобный свитшот с капюшоном",
+    "image": "https://example.com/images/premium-hoodie.png",
+    "category": "Одежда",
+    "createdAt": "2024-11-28T12:30:00.000Z"
+  },
+  {
+    "id": "product-24",
+    "name": "Туфли Office Style",
+    "price": 12990,
+    "description": "Классические туфли для офиса",
+    "image": "https://example.com/images/office-style-shoes.png",
+    "category": "Обувь",
+    "createdAt": "2024-10-12T14:15:00.000Z"
+  },
+  {
+    "id": "product-25",
+    "name": "Игровая консоль NextGen Pro",
+    "price": 700000,
+    "description": "Мощная игровая консоль нового поколения",
+    "image": "https://example.com/images/nextgen-console.png",
+    "category": "Электроника",
+    "createdAt": "2024-12-10T10:00:00.000Z"
+  }
+]
