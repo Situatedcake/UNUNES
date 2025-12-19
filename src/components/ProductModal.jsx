@@ -66,7 +66,7 @@ export const ProductModal = ({ product, onClose }) => {
                     min="1"
                     value={quantity}
                     onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value) || 1))}
-                    className="border-2 border-gray-300 rounded-lg px-4 py-2 w-16 text-center font-bold focus:border-blue-500 focus:outline-none"
+                    className="border-2 border-gray-300 rounded-lg px-4 py-2 w-16 text-center text-black font-bold focus:border-blue-500 focus:outline-none"
                   />
                   <button
                     onClick={() => setQuantity(quantity + 1)}

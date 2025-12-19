@@ -14,7 +14,7 @@ export const ProductCard = ({ product, onViewDetails }) => {
             onError={() => setImageError(true)}
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center bg-gray-300 text-gray-500">
+          <div className="w-full h-full flex items-center justify-center bg-gray-300 text-gray-500 text-6xl">
             📦
           </div>
         )}

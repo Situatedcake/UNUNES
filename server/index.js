@@ -77,7 +77,7 @@ app.post('/api/auth/register', (req, res) => {
   sessions[sessionId] = { userId: newUser.id, createdAt: new Date().toISOString() };
   writeJSON(sessionsFile, sessions);
 
-  res.cookie('sessionId', sessionId, { httpOnly: true, maxAge: 7 * 24 * 60 * 60 * 1000 });
+  res.cookie('sessionId', sessionId, { httpOnly: true, maxAge: 7 * 24 * 60 * 60 * 1000, sameSite: 'none', secure: true });
   res.json({ success: true, user: { id: newUser.id, username, email } });
 });
 
@@ -95,12 +95,12 @@ app.post('/api/auth/login', (req, res) => {
   sessions[sessionId] = { userId: user.id, createdAt: new Date().toISOString() };
   writeJSON(sessionsFile, sessions);
 
-  res.cookie('sessionId', sessionId, { httpOnly: true, maxAge: 7 * 24 * 60 * 60 * 1000 });
+  res.cookie('sessionId', sessionId, { httpOnly: true, maxAge: 7 * 24 * 60 * 60 * 1000, sameSite: 'none', secure: true });
   res.json({ success: true, user: { id: user.id, username: user.username, email: user.email, isAdmin: user.isAdmin } });
 });
 
 app.post('/api/auth/logout', (req, res) => {
-  res.clearCookie('sessionId');
+  res.clearCookie('sessionId', { sameSite: 'none', secure: true });
   res.json({ success: true });
 });
 

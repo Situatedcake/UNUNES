@@ -46,6 +46,7 @@ export const AdminPanel = ({ onClose }) => {
       image: product.image,
       category: product.category
     });
+    document.querySelector("#AdminPanel").scroll(0, 100);
   };
 
   const handleDelete = async (id) => {
@@ -55,9 +56,9 @@ export const AdminPanel = ({ onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4">
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto">
-        <div className="sticky top-0 bg-white border-b border-gray-200 p-6 flex justify-between items-center">
+    <div  className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4">
+      <div  id="AdminPanel" className="bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto">
+        <div  className="sticky top-0 bg-white border-b border-gray-200 p-6 flex justify-between items-center">
           <h2 className="text-3xl font-bold text-gray-800">Админ панель</h2>
           <button 
             onClick={onClose} 
@@ -68,7 +69,7 @@ export const AdminPanel = ({ onClose }) => {
         </div>
 
         <div className="p-6">
-          <form onSubmit={handleSubmit} className="mb-8 p-6 border-2 border-gray-300 rounded-[10px] bg-gray-50">
+          <form onSubmit={handleSubmit} className="mb-8 p-6 border-2 border-gray-300 rounded-[10px] bg-gray-50 text-black">
             <h3 className="font-bold text-lg mb-6 text-gray-800">
               {editingId ? ' Редактировать товар' : 'Добавить новый товар'}
             </h3>
