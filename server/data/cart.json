@@ -1,4 +1,15 @@
 {
-  "6272e296-60f5-423d-b2cc-eb89c766cd5c": [],
+  "6272e296-60f5-423d-b2cc-eb89c766cd5c": [
+    {
+      "productId": "product-2",
+      "quantity": 3,
+      "addedAt": "2025-12-19T20:01:05.840Z"
+    },
+    {
+      "productId": "product-3",
+      "quantity": 1,
+      "addedAt": "2025-12-19T20:04:53.338Z"
+    }
+  ],
   "31aead29-3dfa-4bd1-96e6-d887196fa95b": []
 }
